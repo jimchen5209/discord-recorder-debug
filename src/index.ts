@@ -12,6 +12,13 @@ if (!channelId) {
   throw new Error("DISCORD_VOICE_CHANNEL_ID environment variable is not set.");
 }
 
+const time = (new Date()).toISOString().replace(/[:.]/g, '-').slice(0, 19); // Format: YYYY-MM-DDTHH-MM-SS
+
+if (!existsSync("./recordings")) {
+  console.info("Creating recordings directory...");
+  mkdirSync("./recordings", { recursive: true });
+}
+
 const client = new Client(token, {
   restMode: true,
   gateway: {
@@ -26,11 +33,6 @@ const client = new Client(token, {
 });
 
 client.once("ready", async () => {
-  if (!existsSync("./recordings")) {
-    console.info("Creating recordings directory...");
-    mkdirSync("./recordings", { recursive: true });
-  }
-  
   console.info(`Logged in as ${client.user.username} (${client.user.id})`);
   const voiceConnection = await client.joinVoiceChannel(channelId)
   if (voiceConnection !== undefined) {
@@ -40,7 +42,7 @@ client.once("ready", async () => {
     voiceConnection.receive('pcm').on('data', (data, user) => {
       // Save the audio data to a file
       if (user) {
-        const filePath = `./recordings/${user}.pcm`;
+        const filePath = `./recordings/${user}-${time}.pcm`;
         if (!existsSync(filePath)) {
           console.info(`Creating file for user ${user}...`);
         }
