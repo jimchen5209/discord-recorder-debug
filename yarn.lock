@@ -5,8 +5,427 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@emnapi/core@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "@emnapi/core@npm:1.4.3"
+  dependencies:
+    "@emnapi/wasi-threads": "npm:1.0.2"
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/e30101d16d37ef3283538a35cad60e22095aff2403fb9226a35330b932eb6740b81364d525537a94eb4fb51355e48ae9b10d779c0dd1cdcd55d71461fe4b45c7
+  languageName: node
+  linkType: hard
+
+"@emnapi/runtime@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "@emnapi/runtime@npm:1.4.3"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/3b7ab72d21cb4e034f07df80165265f85f445ef3f581d1bc87b67e5239428baa00200b68a7d5e37a0425c3a78320b541b07f76c5530f6f6f95336a6294ebf30b
+  languageName: node
+  linkType: hard
+
+"@emnapi/wasi-threads@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@emnapi/wasi-threads@npm:1.0.2"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/f0621b1fc715221bd2d8332c0ca922617bcd77cdb3050eae50a124eb8923c54fa425d23982dc8f29d505c8798a62d1049bace8b0686098ff9dd82270e06d772e
+  languageName: node
+  linkType: hard
+
+"@napi-rs/wasm-runtime@npm:^0.2.11":
+  version: 0.2.11
+  resolution: "@napi-rs/wasm-runtime@npm:0.2.11"
+  dependencies:
+    "@emnapi/core": "npm:^1.4.3"
+    "@emnapi/runtime": "npm:^1.4.3"
+    "@tybys/wasm-util": "npm:^0.9.0"
+  checksum: 10c0/049bd14c58b99fbe0967b95e9921c5503df196b59be22948d2155f17652eb305cff6728efd8685338b855da7e476dd2551fbe3a313fc2d810938f0717478441e
+  languageName: node
+  linkType: hard
+
+"@projectdysnomia/dysnomia@Snazzah/dysnomia#feat/dave-protocol":
+  version: 0.2.3
+  resolution: "@projectdysnomia/dysnomia@https://github.com/Snazzah/dysnomia.git#commit=2348d2df4266ef0b98f89feedfea71bb881c6ba9"
+  dependencies:
+    "@snazzah/davey": "npm:^0.1.6"
+    "@stablelib/xchacha20poly1305": "npm:~1.0.1"
+    opusscript: "npm:^0.1.1"
+    ws: "npm:^8.18.0"
+  peerDependencies:
+    "@discordjs/opus": ^0.9.0
+    erlpack: "*"
+    eventemitter3: ^5.0.1
+    pako: ^2.1.0
+    sodium-native: ^4.1.1
+    zlib-sync: ^0.1.9
+  dependenciesMeta:
+    "@snazzah/davey":
+      optional: true
+    "@stablelib/xchacha20poly1305":
+      optional: true
+    opusscript:
+      optional: true
+  peerDependenciesMeta:
+    "@discordjs/opus":
+      optional: true
+    erlpack:
+      optional: true
+    eventemitter3:
+      optional: true
+    pako:
+      optional: true
+    sodium-native:
+      optional: true
+    zlib-sync:
+      optional: true
+  checksum: 10c0/c4613f1338121430727223094cf7020e2ab289c6b5a6a40292500727cb461261f5694fd482646dcb037e843cb191eeb292dfdebbcbcc155af2f9e09695e22d5d
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-android-arm-eabi@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-android-arm-eabi@npm:0.1.6"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-android-arm64@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-android-arm64@npm:0.1.6"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-darwin-arm64@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-darwin-arm64@npm:0.1.6"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-darwin-x64@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-darwin-x64@npm:0.1.6"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-freebsd-x64@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-freebsd-x64@npm:0.1.6"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm-gnueabihf@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-linux-arm-gnueabihf@npm:0.1.6"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm64-gnu@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-linux-arm64-gnu@npm:0.1.6"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-arm64-musl@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-linux-arm64-musl@npm:0.1.6"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-x64-gnu@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-linux-x64-gnu@npm:0.1.6"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-linux-x64-musl@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-linux-x64-musl@npm:0.1.6"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-wasm32-wasi@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-wasm32-wasi@npm:0.1.6"
+  dependencies:
+    "@napi-rs/wasm-runtime": "npm:^0.2.11"
+  conditions: cpu=wasm32
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-arm64-msvc@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-win32-arm64-msvc@npm:0.1.6"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-ia32-msvc@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-win32-ia32-msvc@npm:0.1.6"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey-win32-x64-msvc@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey-win32-x64-msvc@npm:0.1.6"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@snazzah/davey@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@snazzah/davey@npm:0.1.6"
+  dependencies:
+    "@snazzah/davey-android-arm-eabi": "npm:0.1.6"
+    "@snazzah/davey-android-arm64": "npm:0.1.6"
+    "@snazzah/davey-darwin-arm64": "npm:0.1.6"
+    "@snazzah/davey-darwin-x64": "npm:0.1.6"
+    "@snazzah/davey-freebsd-x64": "npm:0.1.6"
+    "@snazzah/davey-linux-arm-gnueabihf": "npm:0.1.6"
+    "@snazzah/davey-linux-arm64-gnu": "npm:0.1.6"
+    "@snazzah/davey-linux-arm64-musl": "npm:0.1.6"
+    "@snazzah/davey-linux-x64-gnu": "npm:0.1.6"
+    "@snazzah/davey-linux-x64-musl": "npm:0.1.6"
+    "@snazzah/davey-wasm32-wasi": "npm:0.1.6"
+    "@snazzah/davey-win32-arm64-msvc": "npm:0.1.6"
+    "@snazzah/davey-win32-ia32-msvc": "npm:0.1.6"
+    "@snazzah/davey-win32-x64-msvc": "npm:0.1.6"
+  dependenciesMeta:
+    "@snazzah/davey-android-arm-eabi":
+      optional: true
+    "@snazzah/davey-android-arm64":
+      optional: true
+    "@snazzah/davey-darwin-arm64":
+      optional: true
+    "@snazzah/davey-darwin-x64":
+      optional: true
+    "@snazzah/davey-freebsd-x64":
+      optional: true
+    "@snazzah/davey-linux-arm-gnueabihf":
+      optional: true
+    "@snazzah/davey-linux-arm64-gnu":
+      optional: true
+    "@snazzah/davey-linux-arm64-musl":
+      optional: true
+    "@snazzah/davey-linux-x64-gnu":
+      optional: true
+    "@snazzah/davey-linux-x64-musl":
+      optional: true
+    "@snazzah/davey-wasm32-wasi":
+      optional: true
+    "@snazzah/davey-win32-arm64-msvc":
+      optional: true
+    "@snazzah/davey-win32-ia32-msvc":
+      optional: true
+    "@snazzah/davey-win32-x64-msvc":
+      optional: true
+  checksum: 10c0/bf7e55548d89b38ae6fc55f64c122ba3d26d7683bb872ac5b5991f53ea9a459e0cc87902b0814976e10af470409066b6e36c56bcea333954e88f222a229b8e86
+  languageName: node
+  linkType: hard
+
+"@stablelib/aead@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/aead@npm:1.0.1"
+  checksum: 10c0/8ec16795a6f94264f93514661e024c5b0434d75000ea133923c57f0db30eab8ddc74fa35f5ff1ae4886803a8b92e169b828512c9e6bc02c818688d0f5b9f5aef
+  languageName: node
+  linkType: hard
+
+"@stablelib/binary@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/binary@npm:1.0.1"
+  dependencies:
+    "@stablelib/int": "npm:^1.0.1"
+  checksum: 10c0/154cb558d8b7c20ca5dc2e38abca2a3716ce36429bf1b9c298939cea0929766ed954feb8a9c59245ac64c923d5d3466bb7d99f281debd3a9d561e1279b11cd35
+  languageName: node
+  linkType: hard
+
+"@stablelib/chacha20poly1305@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/chacha20poly1305@npm:1.0.1"
+  dependencies:
+    "@stablelib/aead": "npm:^1.0.1"
+    "@stablelib/binary": "npm:^1.0.1"
+    "@stablelib/chacha": "npm:^1.0.1"
+    "@stablelib/constant-time": "npm:^1.0.1"
+    "@stablelib/poly1305": "npm:^1.0.1"
+    "@stablelib/wipe": "npm:^1.0.1"
+  checksum: 10c0/fe202aa8aface111c72bc9ec099f9c36a7b1470eda9834e436bb228618a704929f095b937f04e867fe4d5c40216ff089cbfeb2eeb092ab33af39ff333eb2c1e6
+  languageName: node
+  linkType: hard
+
+"@stablelib/chacha@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/chacha@npm:1.0.1"
+  dependencies:
+    "@stablelib/binary": "npm:^1.0.1"
+    "@stablelib/wipe": "npm:^1.0.1"
+  checksum: 10c0/4d70b484ae89416d21504024f977f5517bf16b344b10fb98382c9e3e52fe8ca77ac65f5d6a358d8b152f2c9ffed101a1eb15ed1707cdf906e1b6624db78d2d16
+  languageName: node
+  linkType: hard
+
+"@stablelib/constant-time@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/constant-time@npm:1.0.1"
+  checksum: 10c0/694a282441215735a1fdfa3d06db5a28ba92423890967a154514ef28e0d0298ce7b6a2bc65ebc4273573d6669a6b601d330614747aa2e69078c1d523d7069e12
+  languageName: node
+  linkType: hard
+
+"@stablelib/int@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/int@npm:1.0.1"
+  checksum: 10c0/e1a6a7792fc2146d65de56e4ef42e8bc385dd5157eff27019b84476f564a1a6c43413235ed0e9f7c9bb8907dbdab24679467aeb10f44c92e6b944bcd864a7ee0
+  languageName: node
+  linkType: hard
+
+"@stablelib/poly1305@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/poly1305@npm:1.0.1"
+  dependencies:
+    "@stablelib/constant-time": "npm:^1.0.1"
+    "@stablelib/wipe": "npm:^1.0.1"
+  checksum: 10c0/080185ffa92f5111e6ecfeab7919368b9984c26d048b9c09a111fbc657ea62bb5dfe6b56245e1804ce692a445cc93ab6625936515fa0e7518b8f2d86feda9630
+  languageName: node
+  linkType: hard
+
+"@stablelib/wipe@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/wipe@npm:1.0.1"
+  checksum: 10c0/c5a54f769c286a5b3ecff979471dfccd4311f2e84a959908e8c0e3aa4eed1364bd9707f7b69d1384b757e62cc295c221fa27286c7f782410eb8a690f30cfd796
+  languageName: node
+  linkType: hard
+
+"@stablelib/xchacha20@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/xchacha20@npm:1.0.1"
+  dependencies:
+    "@stablelib/binary": "npm:^1.0.1"
+    "@stablelib/chacha": "npm:^1.0.1"
+    "@stablelib/wipe": "npm:^1.0.1"
+  checksum: 10c0/7b72e9ebf414b3ea9355c2c780dd992e62ede3d4839ca0f8e8b980d4bbe9af9216fde31b1f7ebd7bd38de120fe74b0c99d8628b7bcdeac820e91df09c2618002
+  languageName: node
+  linkType: hard
+
+"@stablelib/xchacha20poly1305@npm:~1.0.1":
+  version: 1.0.1
+  resolution: "@stablelib/xchacha20poly1305@npm:1.0.1"
+  dependencies:
+    "@stablelib/aead": "npm:^1.0.1"
+    "@stablelib/chacha20poly1305": "npm:^1.0.1"
+    "@stablelib/constant-time": "npm:^1.0.1"
+    "@stablelib/wipe": "npm:^1.0.1"
+    "@stablelib/xchacha20": "npm:^1.0.1"
+  checksum: 10c0/cd1e525bdbd15894b1b51f41bf6e546cd6bc1c5408a1399cbe97677211aca92641503c040576f8c51df88ef70796ed69de690a4ee1ab81a64ba4327f449dcd1c
+  languageName: node
+  linkType: hard
+
+"@tybys/wasm-util@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@tybys/wasm-util@npm:0.9.0"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/f9fde5c554455019f33af6c8215f1a1435028803dc2a2825b077d812bed4209a1a64444a4ca0ce2ea7e1175c8d88e2f9173a36a33c199e8a5c671aa31de8242d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.15.31":
+  version: 22.15.31
+  resolution: "@types/node@npm:22.15.31"
+  dependencies:
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/ef7d5dc890da41cfd554d35ab8998bc18be9e3a0caa642e720599ac4410a94a4879766e52b3c9cafa06c66b7b8aebdc51f322cf67df23a6489927890196a316d
+  languageName: node
+  linkType: hard
+
 "discord-recorder-debug@workspace:.":
   version: 0.0.0-use.local
   resolution: "discord-recorder-debug@workspace:."
+  dependencies:
+    "@projectdysnomia/dysnomia": "Snazzah/dysnomia#feat/dave-protocol"
+    "@types/node": "npm:^22.15.31"
+    prism-media: "npm:^2.0.0-alpha.0"
+    typescript: "npm:^5.8.3"
   languageName: unknown
   linkType: soft
+
+"duplex-child-process@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "duplex-child-process@npm:1.0.1"
+  checksum: 10c0/303c070a3dbf6baab62cb67d66fe1d2d02ebc2d07661199702557999a69c68b65cfb28d85116e7798c44fac68ca113abf05d5ea50c6b7da973e0f465ef11964a
+  languageName: node
+  linkType: hard
+
+"opusscript@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "opusscript@npm:0.1.1"
+  checksum: 10c0/43216f82b0b707958ab0f0d0b16dba9bd82d0e9756417d24f8674c38b8ac992934d5d8744f87f267ebd83b61bd7dac4d717d616e0038b2aeb761bb03eb6485cd
+  languageName: node
+  linkType: hard
+
+"prism-media@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "prism-media@npm:2.0.0-alpha.0"
+  dependencies:
+    duplex-child-process: "npm:^1.0.1"
+  checksum: 10c0/85c493bc9d4d420c9cbaf8df7753cb8fe45f9d8f93c01d407ab657bbbb923291bb429ba950a64277e84fa703c11f51a9bfe34be51fa744539ae4c022635ad285
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.4.0":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.8.3":
+  version: 5.8.3
+  resolution: "typescript@npm:5.8.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/5f8bb01196e542e64d44db3d16ee0e4063ce4f3e3966df6005f2588e86d91c03e1fb131c2581baf0fb65ee79669eea6e161cd448178986587e9f6844446dbb48
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.8.3#optional!builtin<compat/typescript>":
+  version: 5.8.3
+  resolution: "typescript@patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 10c0/39117e346ff8ebd87ae1510b3a77d5d92dae5a89bde588c747d25da5c146603a99c8ee588c7ef80faaf123d89ed46f6dbd918d534d641083177d5fac38b8a1cb
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 10c0/c01ed51829b10aa72fc3ce64b747f8e74ae9b60eafa19a7b46ef624403508a54c526ffab06a14a26b3120d055e1104d7abe7c9017e83ced038ea5cf52f8d5e04
+  languageName: node
+  linkType: hard
+
+"ws@npm:^8.18.0":
+  version: 8.18.2
+  resolution: "ws@npm:8.18.2"
+  peerDependencies:
+    bufferutil: ^4.0.1
+    utf-8-validate: ">=5.0.2"
+  peerDependenciesMeta:
+    bufferutil:
+      optional: true
+    utf-8-validate:
+      optional: true
+  checksum: 10c0/4b50f67931b8c6943c893f59c524f0e4905bbd183016cfb0f2b8653aa7f28dad4e456b9d99d285bbb67cca4fedd9ce90dfdfaa82b898a11414ebd66ee99141e4
+  languageName: node
+  linkType: hard
