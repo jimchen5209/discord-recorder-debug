@@ -5,6 +5,7 @@
     "build": "tsc --pretty"
   },
   "dependencies": {
+    "@discordjs/opus": "^0.10.0",
     "@projectdysnomia/dysnomia": "Snazzah/dysnomia#feat/dave-protocol",
     "prism-media": "^2.0.0-alpha.0"
   },
